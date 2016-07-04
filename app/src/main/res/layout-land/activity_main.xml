@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.example.aliza.finalproject.SearchFilterActivity"
+        android:id="@+id/searchFilter"
+        android:layout_weight="1"
+        tools:layout="@layout/activity_search_filter" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.example.aliza.finalproject.SearchResultActivity"
+        android:id="@+id/searchResults"
+        android:layout_weight="1"
+        tools:layout="@layout/activity_search_result"/>
+
+</LinearLayout>
