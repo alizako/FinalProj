@@ -1,5 +1,11 @@
 <resources>
-    <string name="app_name">EX3Home</string>
+    <string name="app_name">All-Shows DB</string>
     <string name="notFound">Not Found</string>
     <string name="find">Find</string>
+    <string name="back">Back</string>
+    <string name="titleRes">Search Results</string>
+    <string-array name="networks_array">
+        <item>NBC</item>
+        <item>CBC</item>
+    </string-array>
 </resources>

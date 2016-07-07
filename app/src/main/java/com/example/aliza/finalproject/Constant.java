@@ -2,6 +2,7 @@ package com.example.aliza.finalproject;
 
 public final class Constant {
 
+    public static final String URL_SHOWS_GENERAL= "http://api.tvmaze.com/shows/";
     public static final String URL_SHOWS = "http://api.tvmaze.com/search/shows?q=";
     public static final String URL_EPISODES = "http://api.tvmaze.com/shows/#/episodes";
     public static final String LOAD_MSG = "Loading";
