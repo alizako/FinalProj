@@ -3,7 +3,10 @@
     <string name="notFound">Not Found</string>
     <string name="find">Find</string>
     <string name="back">Back</string>
-    <string name="titleRes">Search Results</string>
+    <string name="titleRes">Search </string>
+    <string name="titleFav">Favorite Shows:</string>
+    <string name="titleSchdl">Scheduled Shows:</string>
+    <string name="myZone"> <u>My Zone </u> </string>
     <string-array name="networks_array">
         <item>NBC</item>
         <item>CBC</item>

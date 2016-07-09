@@ -12,6 +12,7 @@ public class Episode {
     protected String summary;
     protected String episodeDetails;
     protected Integer season;
+    protected Integer episodeNum;
 
     // C-tors: ***********************************************************************
     public Episode() {
@@ -74,6 +75,13 @@ public class Episode {
     }
     public Integer getSeason() {
         return season;
+    }
+
+    public Integer getEpisodeNum() {
+        return episodeNum;
+    }
+    public void setEpisodeNum(Integer episodeNum) {
+        this.episodeNum = episodeNum;
     }
 
     // *************************************************************************************

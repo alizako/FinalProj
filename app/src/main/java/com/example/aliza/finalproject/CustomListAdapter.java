@@ -14,6 +14,7 @@ import android.widget.TextView;
 import com.android.volley.toolbox.ImageLoader;
 import com.squareup.picasso.Picasso;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -23,13 +24,24 @@ public class CustomListAdapter extends BaseAdapter {
     private Activity activity;
     private LayoutInflater inflater;
     private List<Show> showItems;
-    ImageLoader imageLoader ;
+    /* private List<Episode> episodesItems;
+    ImageLoader imageLoader ;*/
+    private String scheduleTime;
+    private ArrayList<String> scheduleDays;
+    private String yearPremiered;
+    private String network;
+    private ArrayList<String> genres;
 
 
    public CustomListAdapter(Activity activity, List<Show> showItems) {
         this.activity = activity;
         this.showItems = showItems;
     }
+
+    /*public CustomListAdapter(Activity activity, List<Episode> episodesItems,boolean bl) {
+        this.activity = activity;
+        this.episodesItems = episodesItems;
+    }*/
 
     @Override
     public int getCount() {
@@ -62,6 +74,13 @@ public class CustomListAdapter extends BaseAdapter {
        ImageView imageView = (ImageView)convertView.findViewById(R.id.imgVw);
        TextView episodeDtl = (TextView) convertView.findViewById(R.id.episode);
 
+       TextView year= (TextView) convertView.findViewById(R.id.tvYearVal);
+       TextView genre= (TextView) convertView.findViewById(R.id.tvGenreVal);
+       TextView network= (TextView) convertView.findViewById(R.id.tvNetVal);
+       TextView schedule= (TextView) convertView.findViewById(R.id.tvScheduleVal);
+       //TO DO:
+       //check in favorite & schedule if exists -> sign checked if is
+
 
        // image-  Picasso does Automatic memory and disk caching:
        if (show.getImgUrl().equals("")) {
@@ -77,11 +96,24 @@ public class CustomListAdapter extends BaseAdapter {
         // title
        title.setText(show.getTitle());
 
+       //main info:
+       year.setText(show.getYearPremiered().toString().substring(0,4));
+       network.setText(show.getNetwork() );
+       String tmp="";
+       for (int j = 0; j < show.getGenres().size(); j++)
+           tmp+=show.getGenresByIndex(j)+" | ";
+        genre.setText(tmp);
+       tmp="";
+       for (int j = 0; j < show.getScheduleDays().size(); j++)
+           tmp+=show.getScheduleDaysByIndex(j)+" | ";
+       schedule.setText(tmp+" "+ show.getScheduleTime());
+
        // summary- fixing HTML tags display
        //  summary.setText(show.getSummary());
        String formattedText = show.getSummary();
        Spanned result = Html.fromHtml(formattedText);
        summary.setText(result);
+
 
        //episode date+time
        episodeDtl.setText(show.getEpisodeDetails());

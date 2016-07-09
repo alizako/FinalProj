@@ -1,5 +1,7 @@
 package com.example.aliza.finalproject;
 
+import android.provider.BaseColumns;
+
 public final class Constant {
 
     public static final String URL_SHOWS_GENERAL= "http://api.tvmaze.com/shows/";
@@ -21,8 +23,16 @@ public final class Constant {
     public static final String NUM_COL="number";
     public static final String DATE_COL="airdate";
     public static final String TIME_COL="airtime";
+    public static final String YEAR_COL="premiered";
 
     public static final String NULL = "null";
+
+    public  static abstract class Shows implements BaseColumns{
+        public static final String TABLE_FAVORITE="Favorite_Shows";
+        public static final String SHOW_ID_FAV="show_id";
+        public static final String TABLE_SCHEDULE ="Schedule_Shows";
+        public static final String SHOW_ID_SCHDL="show_id";
+    }
 
     //constructor
     private Constant(){

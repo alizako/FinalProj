@@ -14,12 +14,12 @@
     android:focusable="true"
     android:focusableInTouchMode="true">
 
-    <!--<TextView
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Insert Show name to look for:"
-        android:id="@+id/textView1"
-        android:layout_gravity="left" />-->
+        android:text="@string/myZone"
+        android:id="@+id/tvMyZone"
+        android:layout_gravity="right" />
 
     <LinearLayout
         android:orientation="horizontal"

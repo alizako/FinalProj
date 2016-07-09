@@ -4,6 +4,7 @@ package com.example.aliza.finalproject;
  * Created by Aliza on 18/05/2016.
  */
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -14,11 +15,14 @@ public class Show extends Episode {
 
 
     private String scheduleTime;
-    private List<String> scheduleDays;
+    private ArrayList<String> scheduleDays;
     private Boolean isFavoritePressed;
     private Boolean isSchedulePressed;
     private String yearPremiered;
     private String network;
+    private ArrayList<String> genres;
+
+
 
     // C-tors: ***********************************************************************
     public Show() {
@@ -66,10 +70,10 @@ public class Show extends Episode {
     public List<String> getScheduleDays() {
         return scheduleDays;
     }
-
-    public void setScheduleDays(List<String> scheduleDays) {
+    public void setScheduleDays(ArrayList<String> scheduleDays) {
         this.scheduleDays = scheduleDays;
     }
+    public String getScheduleDaysByIndex(int index){return scheduleDays.get(index);}
 
     public String getScheduleTime() {
         return scheduleTime;
@@ -86,6 +90,14 @@ public class Show extends Episode {
     public void setYearPremiered(String yearPremiered) {
         this.yearPremiered = yearPremiered;
     }
+
+    public ArrayList<String> getGenres() {
+        return genres;
+    }
+    public void setGenres(ArrayList<String> genres) {
+        this.genres = genres;
+    }
+    public String getGenresByIndex(int index){return genres.get(index);}
 
     // *************************************************************************************
     @Override
