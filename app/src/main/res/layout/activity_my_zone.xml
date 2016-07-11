@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    >
 
     <fragment
         android:layout_width="match_parent"
@@ -19,7 +21,10 @@
         android:name="com.example.aliza.finalproject.ScheduleFragment"
         android:id="@+id/Schedule"
         android:layout_weight="1"
-        tools:layout="@layout/fragment_schedule"/>
+        tools:layout="@layout/fragment_schedule"
+        android:layout_margin="5dp"
+        android:background="@drawable/border"
+        android:padding="5dp"/>
 
 </LinearLayout>
 

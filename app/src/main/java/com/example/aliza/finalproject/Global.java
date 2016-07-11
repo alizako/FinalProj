@@ -13,6 +13,8 @@ public class Global {
     private static boolean isEpisodeList=false;
     private static String strQuery;
     private static String strChosenShow;
+    private static String idChosenShow;
+    private static String timeChosenShow;
     private static TextView tvTitleResults;
 
     private static TextView tvGnr,tvGnrVal,tvYr, tvYrVal, tvNw, tvNwVal,tvSch,tvSchVal;
@@ -44,8 +46,15 @@ public class Global {
     public static String getStrChosenShow() {
         return strChosenShow;
     }
+
     public static void setStrChosenShow(String strChosenShow) {
         Global.strChosenShow = strChosenShow;
+    }
+    public static String getIdChosenShow(){
+        return idChosenShow;
+    }
+    public static void setIdChosenShow(String idChosenShow){
+        Global.idChosenShow = idChosenShow;
     }
 
     public static TextView getTvTitleResults() {
@@ -86,6 +95,7 @@ public class Global {
     }
 
     public static void setSwtFav(Switch swtFav) {
+        swtFav.setChecked(false);
         Global.swtFav = swtFav;
     }
 
@@ -151,5 +161,15 @@ public class Global {
 
     public static void setTvYrVal(TextView tvYrVal) {
         Global.tvYrVal = tvYrVal;
+    }
+
+    public static String getTimeChosenShow()
+    {
+        return timeChosenShow;
+    }
+
+    public static void setTimeChosenShow(String time)
+    {
+        Global.timeChosenShow = time;
     }
 }

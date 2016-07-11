@@ -46,6 +46,14 @@ public class SearchFragment extends Fragment {
         spnrAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(spnrAdapter);
 
+        // Spinner element- Genres
+        Spinner spinnerGenres = (Spinner) view.findViewById(R.id.genre_spinner);
+        final ArrayAdapter<CharSequence> spnrAdapterGenres =
+                ArrayAdapter.createFromResource(view.getContext(),
+                        R.array.genres_array, android.R.layout.simple_spinner_item);
+        spnrAdapterGenres.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinnerGenres.setAdapter(spnrAdapterGenres);
+
         //components
         final EditText etQuery = (EditText) view.findViewById(R.id.etQuery);
         final Button btnFind =(Button) view.findViewById(R.id.btnFind);

@@ -4,55 +4,13 @@
     <shared>
       <config />
     </shared>
-    <layouts>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_row.xml">
-        <config>
-          <theme>@style/AppTheme</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_result.xml">
-        <config>
-          <theme>@style/AppTheme</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_search.xml">
-        <config>
-          <theme>@style/AppTheme</theme>
-        </config>
-      </layout>
-    </layouts>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7636ae46-dbb2-442e-a6cc-a1f0bc54d101" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_row.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/Constant.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/Constant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/CustomListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/CustomListAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/Episode.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/Episode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/JsonExtractor.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/JsonExtractor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/MyClickListenerFromListFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/MyClickListenerFromListFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/ResultFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/ResultFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/SearchFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/SearchFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/Show.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/Show.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_result.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_result.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_search.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_search.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-    </list>
+    <list default="true" id="1a94a64d-7d4d-4ab6-901a-4544d7ca27a5" name="Default" comment="" />
     <ignored path="FinalProj.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,54 +29,101 @@
     <favorites_list name="FinalProj" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/MainActivity.java">
+    <leaf>
+      <file leaf-file-name="fragment_result.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_result.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.3055556">
+              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#746#764#0" expanded="true" />
+                <element signature="e#999#1013#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_my_zone.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_my_zone.xml">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.774194">
-              <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
+          <provider editor-type-id="android-designer">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.0344827">
-              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+            <state vertical-scroll-proportion="-2.2058823">
+              <caret line="3" column="33" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResultFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/ResultFragment.java">
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="120" column="10" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
+            <state vertical-scroll-proportion="-2.7777777">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_schedule.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_schedule.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.9166665">
+              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
               <folding>
-                <element signature="e#2730#5087#0" expanded="true" />
-                <element signature="e#5086#5087#0" expanded="true" />
-                <element signature="e#5416#5857#0" expanded="true" />
-                <element signature="e#5856#5857#0" expanded="true" />
-                <element signature="e#5943#6378#0" expanded="true" />
-                <element signature="e#6377#6378#0" expanded="true" />
+                <element signature="e#750#764#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_favorite.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_favorite.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.736111">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="e#748#762#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_row.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_row.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.5694444">
+              <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.363636">
+              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#onButtonClick#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onItemClick#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onFavoriteClick#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onScheduleClick#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#onMyZoneClick#0;class#MainActivity#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -128,31 +133,30 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/SearchFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="87" column="44" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
+              <caret line="54" column="52" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myZone.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/myZone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="2.1502147">
+              <caret line="141" column="29" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="29" />
               <folding>
-                <element signature="e#1920#3243#0" expanded="true" />
-                <element signature="e#3242#3243#0" expanded="true" />
-                <element signature="e#3353#3516#0" expanded="true" />
-                <element signature="e#3515#3516#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonExtractor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/JsonExtractor.java">
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="246" column="0" selection-start-line="246" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2446#6105#0" expanded="true" />
-                <element signature="e#4475#4483#0" expanded="true" />
-                <element signature="e#4855#4863#0" expanded="true" />
-                <element signature="e#6104#6105#0" expanded="true" />
-                <element signature="e#6779#9852#0" expanded="true" />
-                <element signature="e#9851#9852#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-3.7162163">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -162,13 +166,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="resourceFile" />
+        <option value="layoutResourceFile_vertical" />
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -1496,7 +1497,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4402144341396" />
+        <entry key="$PROJECT_DIR$" value="4404381733916" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1770,59 +1771,42 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout-land/activity_row.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_search_filter.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_search_result.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/border.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/CustomListAdapterEpisodes.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/Episode.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/Show.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_result.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/CustomListAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/Global.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-land/my_zone.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-land/activity_my_zone.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/favorite_row.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/CustomListAdapterFavorites.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/CursorAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/MyCursorAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/JsonExtractor.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_row.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/ResultFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/CursorAdapterFav.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/Constant.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_search.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/CursorAdapterSchdl.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/MyClickListenerFromListFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/Global.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/ResultFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/AssingmentsDBHelper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/FavoriteFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/ScheduleFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_schedule_row.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_favorite_row.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_my_zone.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_search.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_result.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_schedule.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_favorite.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/SearchFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/myZone.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_my_zone.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1378" />
-    <option name="height" value="754" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Android</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>AndroidDomInspection</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
+    <option name="y" value="2" />
+    <option name="width" value="1934" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -1849,18 +1833,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="FinalProj" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1911,6 +1889,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FinalProj" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity_my_zone.xml" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1983,25 +1983,20 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="device.picker.selection" value="a329a250" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
+    <key name="android.template.packageName">
       <recent name="com.example.aliza.finalproject" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Aliza\Documents\GitHub\FinalProj\app\src\main\res\layout" />
-      <recent name="C:\Users\Aliza\Documents\GitHub\FinalProj\app\src\main\java\com\example\aliza\finalproject" />
-      <recent name="C:\Users\Aliza\Documents\GitHub\FinalProj\app\src\main\res\drawable" />
-      <recent name="C:\Users\Aliza\Documents\GitHub\FinalProj\app\src\main\res\layout-land" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.app">
@@ -2273,75 +2268,84 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7636ae46-dbb2-442e-a6cc-a1f0bc54d101" name="Default" comment="" />
-      <created>1467729762410</created>
+      <changelist id="1a94a64d-7d4d-4ab6-901a-4544d7ca27a5" name="Default" comment="" />
+      <created>1468127339176</created>
       <option name="number" value="Default" />
-      <updated>1467729762410</updated>
+      <updated>1468127339176</updated>
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="754" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="2" width="1934" height="1040" extended-state="1" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1851211" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28020135" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718122" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2185129" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21280277" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883435" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32841328" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6678967" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39483395" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32841328" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883435" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972914" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2185129" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21280277" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1851211" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28020135" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718122" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6678967" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883435" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972914" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883435" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32841328" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39483395" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883435" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2359,165 +2363,21 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/SearchFragment.java</url>
-          <line>77</line>
-          <properties />
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/SearchFragment.java</url>
-          <line>80</line>
-          <properties />
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/SearchFragment.java</url>
-          <line>92</line>
-          <properties />
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/ResultFragment.java</url>
-          <line>69</line>
-          <properties />
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/ResultFragment.java</url>
-          <line>91</line>
-          <properties />
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/MainActivity.java</url>
-          <line>110</line>
-          <properties />
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/MainActivity.java</url>
-          <line>124</line>
-          <properties />
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/MainActivity.java</url>
-          <line>144</line>
-          <properties />
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/MainActivity.java</url>
-          <line>125</line>
-          <properties />
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/ResultFragment.java</url>
-          <line>49</line>
-          <properties />
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/ResultFragment.java</url>
-          <line>50</line>
-          <properties />
-          <option name="timeStamp" value="71" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/MainActivity.java</url>
-          <line>98</line>
-          <properties />
-          <option name="timeStamp" value="73" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/MainActivity.java</url>
-          <line>85</line>
-          <properties />
-          <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/MainActivity.java</url>
-          <line>60</line>
-          <properties />
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/JsonExtractor.java</url>
-          <line>148</line>
-          <properties />
-          <option name="timeStamp" value="78" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/JsonExtractor.java</url>
-          <line>97</line>
-          <properties />
-          <option name="timeStamp" value="84" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/JsonExtractor.java</url>
-          <line>149</line>
-          <properties />
-          <option name="timeStamp" value="90" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/ResultFragment.java</url>
-          <line>88</line>
-          <properties />
-          <option name="timeStamp" value="97" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/MainActivity.java</url>
-          <line>82</line>
-          <properties />
-          <option name="timeStamp" value="105" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/MainActivity.java</url>
-          <line>134</line>
-          <properties />
-          <option name="timeStamp" value="106" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/JsonExtractor.java</url>
-          <line>246</line>
-          <properties />
-          <option name="timeStamp" value="107" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/myZone.java</url>
-          <line>24</line>
+          <line>31</line>
           <properties />
-          <option name="timeStamp" value="111" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/MainActivity.java</url>
-          <line>159</line>
-          <properties />
-          <option name="timeStamp" value="112" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/JsonExtractor.java</url>
-          <line>101</line>
-          <properties method="onResponse" />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/myZone.java</url>
-          <line>23</line>
-          <properties class="com.example.aliza.finalproject.myZone" method="onCreate" />
-          <option name="timeStamp" value="113" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="114" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_search.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_favorite_row.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="41" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="41" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2525,459 +2385,50 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/RowActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/SearchFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1920#3243#0" expanded="true" />
-            <element signature="e#3242#3243#0" expanded="true" />
-            <element signature="e#3353#3516#0" expanded="true" />
-            <element signature="e#3515#3516#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_result.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32774675">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/app/ActivityThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42975205">
-          <caret line="3250" column="0" selection-start-line="3250" selection-start-column="0" selection-end-line="3250" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#230301#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#4831#4832#0" expanded="false" />
-            <element signature="e#4857#4858#0" expanded="false" />
-            <element signature="e#7496#7509#0" expanded="false" />
-            <element signature="e#7645#7666#0" expanded="false" />
-            <element signature="e#8986#9020#0" expanded="false" />
-            <element signature="e#9121#9155#0" expanded="false" />
-            <element signature="e#9251#9273#0" expanded="false" />
-            <element signature="e#9984#9985#0" expanded="false" />
-            <element signature="e#10072#10073#0" expanded="false" />
-            <element signature="e#10236#10271#0" expanded="false" />
-            <element signature="e#10364#10391#0" expanded="false" />
-            <element signature="e#10483#10514#0" expanded="false" />
-            <element signature="e#10622#10659#0" expanded="false" />
-            <element signature="e#10770#10817#0" expanded="false" />
-            <element signature="e#16920#16921#0" expanded="false" />
-            <element signature="e#16989#16990#0" expanded="false" />
-            <element signature="e#27992#27993#0" expanded="false" />
-            <element signature="e#28050#28051#0" expanded="false" />
-            <element signature="e#31500#31501#0" expanded="false" />
-            <element signature="e#31561#31562#0" expanded="false" />
-            <element signature="e#31608#31609#0" expanded="false" />
-            <element signature="e#31660#31661#0" expanded="false" />
-            <element signature="e#31890#31891#0" expanded="false" />
-            <element signature="e#31939#31940#0" expanded="false" />
-            <element signature="e#34173#34174#0" expanded="false" />
-            <element signature="e#34228#34229#0" expanded="false" />
-            <element signature="e#35771#35772#0" expanded="false" />
-            <element signature="e#35829#35830#0" expanded="false" />
-            <element signature="e#44242#44420#0" expanded="false" />
-            <element signature="e#44419#44420#0" expanded="false" />
-            <element signature="e#45573#45574#0" expanded="false" />
-            <element signature="e#45636#45637#0" expanded="false" />
-            <element signature="e#46109#46110#0" expanded="false" />
-            <element signature="e#46164#46165#0" expanded="false" />
-            <element signature="e#70890#70891#0" expanded="false" />
-            <element signature="e#70935#70936#0" expanded="false" />
-            <element signature="e#73469#73470#0" expanded="false" />
-            <element signature="e#73494#73495#0" expanded="false" />
-            <element signature="e#79872#79873#0" expanded="false" />
-            <element signature="e#79938#79939#0" expanded="false" />
-            <element signature="e#79997#79998#0" expanded="false" />
-            <element signature="e#80030#80031#0" expanded="false" />
-            <element signature="e#80085#80086#0" expanded="false" />
-            <element signature="e#80124#80125#0" expanded="false" />
-            <element signature="e#80322#80323#0" expanded="false" />
-            <element signature="e#80366#80367#0" expanded="false" />
-            <element signature="e#80399#80400#0" expanded="false" />
-            <element signature="e#80429#80430#0" expanded="false" />
-            <element signature="e#80472#80473#0" expanded="false" />
-            <element signature="e#80514#80515#0" expanded="false" />
-            <element signature="e#80552#80553#0" expanded="false" />
-            <element signature="e#80604#80605#0" expanded="false" />
-            <element signature="e#97700#97701#0" expanded="false" />
-            <element signature="e#97754#97755#0" expanded="false" />
-            <element signature="e#98100#98112#0" expanded="false" />
-            <element signature="e#98295#98296#0" expanded="false" />
-            <element signature="e#98346#98347#0" expanded="false" />
-            <element signature="e#115832#115840#0" expanded="false" />
-            <element signature="e#116044#116045#0" expanded="false" />
-            <element signature="e#116096#116097#0" expanded="false" />
-            <element signature="e#174273#174294#0" expanded="false" />
-            <element signature="e#200702#200742#0" expanded="false" />
-            <element signature="e#223178#223328#0" expanded="false" />
-            <element signature="e#223327#223328#0" expanded="false" />
-            <element signature="e#223872#224818#0" expanded="false" />
-            <element signature="e#224817#224818#0" expanded="false" />
-            <element signature="e#228033#228034#0" expanded="false" />
-            <element signature="e#228088#228089#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.967742">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/border.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.8387096">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.967742">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4193548">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8194444">
-          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.2.0/support-v4-23.2.0-sources.jar!/android/support/v4/app/FragmentHostCallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
-          <folding>
-            <element signature="e#6162#6163#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.volley/volley/1.0.0/c79696d64f9520675054e27b77f490c17d8b4b9e/volley-1.0.0-sources.jar!/com/android/volley/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5697" column="0" selection-start-line="5697" selection-start-column="0" selection-end-line="5697" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.2.0/support-v4-23.2.0-sources.jar!/android/support/v4/app/Fragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1973" column="0" selection-start-line="1973" selection-start-column="0" selection-end-line="1973" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.2.0/support-v4-23.2.0-sources.jar!/android/support/v4/app/FragmentManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1068" column="0" selection-start-line="1068" selection-start-column="0" selection-end-line="1068" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/os/Trace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23946784">
-          <caret line="317" column="17" selection-start-line="317" selection-start-column="17" selection-end-line="317" selection-end-column="17" />
-          <folding>
-            <element signature="e#11210#11211#0" expanded="true" />
-            <element signature="e#11237#11238#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/widget/AbsListView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1546" column="0" selection-start-line="1546" selection-start-column="0" selection-end-line="1546" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/os/Looper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="157" column="0" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
-          <folding>
-            <element signature="e#6226#6227#0" expanded="false" />
-            <element signature="e#6267#6268#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/os/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.volley/volley/1.0.0/c79696d64f9520675054e27b77f490c17d8b4b9e/volley-1.0.0-sources.jar!/com/android/volley/ExecutorDelivery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6801802">
-          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.volley/volley/1.0.0/c79696d64f9520675054e27b77f490c17d8b4b9e/volley-1.0.0-sources.jar!/com/android/volley/toolbox/JsonArrayRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.19607843">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/Episode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-          <folding>
-            <element signature="e#1109#1110#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
-            <element signature="e#1938#1939#0" expanded="true" />
-            <element signature="e#1971#1972#0" expanded="true" />
-            <element signature="e#2023#2024#0" expanded="true" />
-            <element signature="e#2067#2068#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/org/json/JSONObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="585" column="0" selection-start-line="585" selection-start-column="0" selection-end-line="585" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.29411766">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="20" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/org/json/JSONArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="461" column="0" selection-start-line="461" selection-start-column="0" selection-end-line="461" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/RowActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18181819">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/widget/AdapterView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="345" column="0" selection-start-line="345" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.volley/volley/1.0.0/c79696d64f9520675054e27b77f490c17d8b4b9e/volley-1.0.0-sources.jar!/com/android/volley/toolbox/JsonRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding>
-            <element signature="e#2374#2375#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/Global.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5109091">
-          <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2193#2194#0" expanded="true" />
-            <element signature="e#2219#2220#0" expanded="true" />
-            <element signature="e#2267#2268#0" expanded="true" />
-            <element signature="e#2299#2300#0" expanded="true" />
-            <element signature="e#2339#2340#0" expanded="true" />
-            <element signature="e#2368#2369#0" expanded="true" />
-            <element signature="e#2419#2420#0" expanded="true" />
-            <element signature="e#2457#2458#0" expanded="true" />
-            <element signature="e#2498#2499#0" expanded="true" />
-            <element signature="e#2526#2527#0" expanded="true" />
-            <element signature="e#2577#2578#0" expanded="true" />
-            <element signature="e#2613#2614#0" expanded="true" />
-            <element signature="e#2657#2658#0" expanded="true" />
-            <element signature="e#2688#2689#0" expanded="true" />
-            <element signature="e#2745#2746#0" expanded="true" />
-            <element signature="e#2787#2788#0" expanded="true" />
-            <element signature="e#2827#2828#0" expanded="true" />
-            <element signature="e#2854#2855#0" expanded="true" />
-            <element signature="e#2903#2904#0" expanded="true" />
-            <element signature="e#2937#2938#0" expanded="true" />
-            <element signature="e#2980#2981#0" expanded="true" />
-            <element signature="e#3010#3011#0" expanded="true" />
-            <element signature="e#3065#3066#0" expanded="true" />
-            <element signature="e#3105#3106#0" expanded="true" />
-            <element signature="e#3146#3147#0" expanded="true" />
-            <element signature="e#3174#3175#0" expanded="true" />
-            <element signature="e#3225#3226#0" expanded="true" />
-            <element signature="e#3261#3262#0" expanded="true" />
-            <element signature="e#3305#3306#0" expanded="true" />
-            <element signature="e#3336#3337#0" expanded="true" />
-            <element signature="e#3393#3394#0" expanded="true" />
-            <element signature="e#3435#3436#0" expanded="true" />
-            <element signature="e#3475#3476#0" expanded="true" />
-            <element signature="e#3502#3503#0" expanded="true" />
-            <element signature="e#3551#3552#0" expanded="true" />
-            <element signature="e#3585#3586#0" expanded="true" />
-            <element signature="e#3628#3629#0" expanded="true" />
-            <element signature="e#3658#3659#0" expanded="true" />
-            <element signature="e#3713#3714#0" expanded="true" />
-            <element signature="e#3753#3754#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/Show.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.7872727">
-          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_row.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.16129">
-          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-          <folding>
-            <element signature="e#831#845#0" expanded="true" />
-            <element signature="e#916#934#0" expanded="true" />
-            <element signature="e#1911#1927#0" expanded="true" />
-            <element signature="e#1957#1975#0" expanded="true" />
-            <element signature="e#2528#2544#0" expanded="true" />
-            <element signature="e#3089#3105#0" expanded="true" />
-            <element signature="e#3700#3716#0" expanded="true" />
-            <element signature="e#4269#4285#0" expanded="true" />
-            <element signature="e#4515#4531#0" expanded="true" />
-            <element signature="e#4553#4571#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/CustomListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5557769">
-          <caret line="108" column="57" selection-start-line="98" selection-start-column="7" selection-end-line="108" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.78431374">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/CustomListAdapterEpisodes.java">
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/database/sqlite/SQLiteOpenHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61354584">
-          <caret line="87" column="26" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_result.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/database/sqlite/SQLiteClosable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+          <folding />
+        </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.83871">
-          <caret line="151" column="38" selection-start-line="151" selection-start-column="38" selection-end-line="151" selection-end-column="38" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/database/sqlite/SQLiteDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1340" column="86" selection-start-line="1340" selection-start-column="86" selection-end-line="1340" selection-end-column="86" />
           <folding />
         </state>
       </provider>
@@ -2985,39 +2436,229 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/JsonExtractor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="246" column="0" selection-start-line="246" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
+          <caret line="97" column="10" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_schedule_row.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/CursorAdapterSchdl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4411764">
+          <caret line="38" column="99" selection-start-line="38" selection-start-column="99" selection-end-line="38" selection-end-column="99" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2446#6105#0" expanded="true" />
-            <element signature="e#4475#4483#0" expanded="true" />
-            <element signature="e#4855#4863#0" expanded="true" />
-            <element signature="e#6104#6105#0" expanded="true" />
-            <element signature="e#6779#9852#0" expanded="true" />
-            <element signature="e#9851#9852#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/CursorAdapterFav.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50980395">
+          <caret line="35" column="95" selection-start-line="31" selection-start-column="7" selection-end-line="35" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/CustomListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26824033">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/app/Instrumentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1106" column="0" selection-start-line="1106" selection-start-column="0" selection-end-line="1106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/CustomListAdapterEpisodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="12" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
+          <folding>
+            <element signature="e#918#919#0" expanded="false" />
+            <element signature="e#961#962#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/MyClickListenerFromListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="95" selection-start-line="10" selection-start-column="95" selection-end-line="10" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/Constant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76199615">
-          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="61" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.2.0/support-v4-23.2.0-sources.jar!/android/support/v4/app/Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="610" column="0" selection-start-line="610" selection-start-column="0" selection-end-line="610" selection-end-column="0" />
+          <folding>
+            <element signature="e#21529#21530#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/Global.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.25">
+          <caret line="167" column="0" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+          <folding>
+            <element signature="e#1308#1309#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1505#1506#0" expanded="true" />
+            <element signature="e#1540#1541#0" expanded="true" />
+            <element signature="e#1601#1602#0" expanded="true" />
+            <element signature="e#1651#1652#0" expanded="true" />
+            <element signature="e#2466#2467#0" expanded="true" />
+            <element signature="e#2492#2493#0" expanded="true" />
+            <element signature="e#2540#2541#0" expanded="true" />
+            <element signature="e#2572#2573#0" expanded="true" />
+            <element signature="e#2612#2613#0" expanded="true" />
+            <element signature="e#2641#2642#0" expanded="true" />
+            <element signature="e#4149#4150#0" expanded="true" />
+            <element signature="e#4210#4211#0" expanded="true" />
+            <element signature="e#4254#4255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3304721">
+          <caret line="9513" column="0" selection-start-line="9513" selection-start-column="0" selection-end-line="9513" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/AssingmentsDBHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.9270632">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state vertical-scroll-proportion="1.2875537">
+          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/schedule_row.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12886597">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_schedule.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/favorite_row.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32216495">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/FavoriteFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/ScheduleFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.9411764">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_schedule_row.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.5277777">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding>
+            <element signature="e#1043#1059#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_favorite_row.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.986111">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_my_zone.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.1666665">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_my_zone.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.9444447">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.6944447">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -3028,101 +2669,137 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/ResultFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="120" column="10" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
-          <folding>
-            <element signature="e#2730#5087#0" expanded="true" />
-            <element signature="e#5086#5087#0" expanded="true" />
-            <element signature="e#5416#5857#0" expanded="true" />
-            <element signature="e#5856#5857#0" expanded="true" />
-            <element signature="e#5943#6378#0" expanded="true" />
-            <element signature="e#6377#6378#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0344827">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/MyClickListenerFromListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42226487">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-23/android/app/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49625936">
-          <caret line="4566" column="0" selection-start-line="4566" selection-start-column="0" selection-end-line="4566" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/SearchFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="44" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
-          <folding>
-            <element signature="e#1920#3243#0" expanded="true" />
-            <element signature="e#3242#3243#0" expanded="true" />
-            <element signature="e#3353#3516#0" expanded="true" />
-            <element signature="e#3515#3516#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_search.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.030368764">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/myZone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5422535">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26938775">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_my_zone.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.774194">
-          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_search.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.069445">
+          <caret line="53" column="39" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
+          <folding>
+            <element signature="e#819#834#0" expanded="true" />
+            <element signature="e#1094#1110#0" expanded="true" />
+            <element signature="e#3981#3995#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7777777">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="16" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
+      <provider editor-type-id="android-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2058823">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_schedule.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.9166665">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+          <folding>
+            <element signature="e#750#764#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_favorite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.736111">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#748#762#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_row.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.5694444">
+          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_result.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3055556">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <element signature="e#746#764#0" expanded="true" />
+            <element signature="e#999#1013#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.7162163">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.363636">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onButtonClick#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onItemClick#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onFavoriteClick#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onScheduleClick#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onMyZoneClick#0;class#MainActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/SearchFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="52" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/aliza/finalproject/myZone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.1502147">
+          <caret line="141" column="29" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

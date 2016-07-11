@@ -30,8 +30,11 @@ public final class Constant {
     public  static abstract class Shows implements BaseColumns{
         public static final String TABLE_FAVORITE="Favorite_Shows";
         public static final String SHOW_ID_FAV="show_id";
+        public static final String SHOW_NAME_FAV = "show_name";
         public static final String TABLE_SCHEDULE ="Schedule_Shows";
         public static final String SHOW_ID_SCHDL="show_id";
+        public static final String SHOW_NAME_SCHDL="show_name";
+        public static final String SHOW_TIME_SCHDL="show_time";
     }
 
     //constructor

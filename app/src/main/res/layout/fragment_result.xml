@@ -29,7 +29,9 @@
     android:focusable="false"
     android:layout_columnSpan="7"
     android:layout_column="0"
-    android:layout_gravity="center_vertical"/>
+    android:layout_gravity="center_vertical"
+    android:textSize="@dimen/title"
+    android:textColor="@color/colorPrimaryDark"/>
 
         <Switch
             android:layout_width="wrap_content"

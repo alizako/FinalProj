@@ -7,17 +7,19 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 import android.widget.Toast;
 
 public class ScheduleFragment extends Fragment {
     MyClickListenerFromListFragment mListener;
+    ListView scheduleList;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_favorite,container,false);
+        View view = inflater.inflate(R.layout.fragment_schedule,container,false);
 
-        //TODO: display list
+       // scheduleList = (ListView)  view.findViewById(R.id.listViewSchdl);
 
         return view;
     }

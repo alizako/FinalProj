@@ -145,12 +145,23 @@ public class MainActivity extends AppCompatActivity implements MyClickListenerFr
     }
 
     @Override
-    public void onFavoriteClick(int show_id) {
+    public void onFavoriteClick(Context context, String show_id, String show_name,boolean isFavorite) {
 
+        //insert the show_id, show_title to the table
+        if(isFavorite)
+            AssingmentsDBHelper.InsertFavorite(context,show_id,show_name);
+        //remove the show_id from the table
+        else
+            AssingmentsDBHelper.DeleteFavorite(context,show_id);
     }
 
     @Override
-    public void onScheduleClick(int show_id) {
+    public void onScheduleClick(Context context,String show_id, String show_name,String show_time, boolean isScheduled ) {
+        //insert the show_id, show_title to the table
+        if(isScheduled)
+            AssingmentsDBHelper.InsertSchedule(context,show_id,show_name,show_time);
+        else
+            AssingmentsDBHelper.DeleteSchedule(context,show_id);
 
     }
 

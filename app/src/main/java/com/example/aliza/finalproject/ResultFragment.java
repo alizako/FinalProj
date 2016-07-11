@@ -2,6 +2,7 @@ package com.example.aliza.finalproject;
 
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.provider.Settings;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -16,6 +17,7 @@ import android.widget.RatingBar;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.database.sqlite.SQLiteDatabase;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,6 +28,9 @@ public class ResultFragment extends Fragment {
     ProgressDialog dialog;
     CustomListAdapterEpisodes adapter;
     Show show;
+
+    //database
+    SQLiteDatabase db;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -75,6 +80,7 @@ public class ResultFragment extends Fragment {
 
                 //main info of Show:
                 Global.setStrChosenShow(show.getTitle());
+                Global.setIdChosenShow(show.getIdShow());
                 Global.getTvYrVal().setText(show.getYearPremiered().toString().substring(0,4));
                 Global.getTvNwVal().setText(show.getNetwork() );
                 String tmp="";
@@ -85,6 +91,7 @@ public class ResultFragment extends Fragment {
                 for (int j = 0; j < show.getScheduleDays().size(); j++)
                     tmp+=show.getScheduleDaysByIndex(j)+" | ";
                 Global.getTvSchVal().setText(tmp+" "+ show.getScheduleTime());
+                Global.setTimeChosenShow(Global.getTvSchVal().getText().toString());
                  //////////////////
 
 
@@ -128,32 +135,24 @@ public class ResultFragment extends Fragment {
         Global.getRtb().setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
                  @Override
                  public void onRatingChanged(RatingBar ratingBar, float rating, boolean fromUser) {
-                     if(rating==0)
-                     {
-                         //TODO: delete from DB
-                     }
-                     else if (rating==1){
-                         //TODO: add to DB
-                     }
+                     if (rating==1)
+                         mListener.onFavoriteClick(getContext(),Global.getIdChosenShow(),Global.getStrChosenShow(),true);
+                     else
+                         mListener.onFavoriteClick(getContext(),Global.getIdChosenShow(),"",false);
+
                  }
              }
         );
 
-
-
-        Global.getSwtFav().setOnCheckedChangeListener(
-                new CompoundButton.OnCheckedChangeListener() {
-                    @Override
-                    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                        if(isChecked){
-                            //TODO save in DB
-                            }
-                        else {
-                            //TODO Delete from DB
-                        }
-                    }
-                }
-        );
+        Global.getSwtFav().setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if(isChecked)
+                    mListener.onScheduleClick(getContext(),Global.getIdChosenShow(),Global.getStrChosenShow(),Global.getTimeChosenShow(),true);
+                else
+                    mListener.onScheduleClick(getContext(),Global.getIdChosenShow(),"","",false);
+            }
+        });
 
         return view;
     }

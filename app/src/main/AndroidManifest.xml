@@ -17,11 +17,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".SearchFragment" />
-        <activity android:name=".ResultFragment"></activity>
-        <activity android:name=".myZone" ></activity>
-
+        <activity android:name=".ResultFragment" />
+        <activity android:name=".myZone" />
+        <activity android:name=".favorite_row" />
+        <activity android:name=".schedule_row"></activity>
     </application>
 
 </manifest>
