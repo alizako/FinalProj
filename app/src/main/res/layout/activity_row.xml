@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
-    <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="5dp">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBackground"
+    >
 
                    <!-- Movie Title -->
             <TextView
@@ -22,7 +21,8 @@
                 android:textSize="@dimen/title"
                 android:textStyle="bold"
                 android:text="@string/notFound"
-                android:layout_gravity="center_vertical" />
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/summary"/>
 
 
         <LinearLayout
@@ -55,87 +55,12 @@
         </LinearLayout>
 
     <!-- Genre-->
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="2dp">
-
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=""
-            android:id="@+id/tvGenreVal"
-            android:textColor="@color/summary"
-            android:textSize="@dimen/summary"/>
-
-    </LinearLayout>
 
     <!--Year-->
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="2dp">
-
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=""
-            android:id="@+id/tvYearVal"
-            android:textColor="@color/summary"
-            android:textSize="@dimen/summary"
-            android:layout_marginRight="10dp"/>
-
-
-
-    </LinearLayout>
 
     <!--Network-->
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="2dp">
-
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=""
-            android:id="@+id/tvNetVal"
-            android:textColor="@color/summary"
-            android:textSize="@dimen/summary"/>
-
-    </LinearLayout>
 
     <!--Schedule-->
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="2dp">
-
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text=""
-            android:id="@+id/tvScheduleVal"
-            android:textColor="@color/summary"
-            android:textSize="@dimen/summary"/>
-
-    </LinearLayout>
 
 
     <TextView

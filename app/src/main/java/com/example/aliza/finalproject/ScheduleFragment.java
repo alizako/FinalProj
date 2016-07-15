@@ -31,7 +31,7 @@ public class ScheduleFragment extends Fragment {
             mListener = (MyClickListenerFromListFragment) context;
         }
         catch(ClassCastException e){
-            Toast.makeText(context,"error", Toast.LENGTH_LONG).show();
+            Toast.makeText(context,"error SCH", Toast.LENGTH_LONG).show();
         }
     }
 }

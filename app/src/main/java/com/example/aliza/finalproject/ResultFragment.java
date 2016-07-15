@@ -128,7 +128,7 @@ public class ResultFragment extends Fragment {
         btnFind.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mListener.onButtonClick(v);
+                mListener.onButtonClickBack(v);
             }
         });
 

@@ -2,74 +2,74 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\amalia\Documents\limudim\Android\FinalProj\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
+        jar="C:\Users\Aliza\Documents\GitHub\FinalProj\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="23.0.2"
-        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
-        <dex dex="C:\Users\amalia\Documents\limudim\Android\FinalProj\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.2.0_78a3f3dbf3fc68917fd74b7a109aa9610e9fe17b\classes.dex" />
+        sha1="906afefae2b2f32347722bed6eb8f7c87d036cdd">
+        <dex dex="C:\Users\Aliza\Documents\GitHub\FinalProj\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ab10dd4f67b7b56a6b22e77208226a08779e4a95\classes.dex" />
     </item>
     <item
-        jar="C:\Users\amalia\Documents\limudim\Android\FinalProj\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
-        <dex dex="C:\Users\amalia\Documents\limudim\Android\FinalProj\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.0_aeba0afbe650f9a3b9803dc6d95c54de70663d8e\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\amalia\Documents\limudim\Android\FinalProj\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="66a9b337fdf6cfef506ac91b2805ecfb3e4f2772">
-        <dex dex="C:\Users\amalia\Documents\limudim\Android\FinalProj\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1f10fdecac7e57a09c9f819fbafb3ee7e599173c\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\amalia\Documents\limudim\Android\FinalProj\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
-        <dex dex="C:\Users\amalia\Documents\limudim\Android\FinalProj\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.0_c37d5540491eef7e3ebbbe758fba3be6c5b3e2b8\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\amalia\Documents\limudim\Android\FinalProj\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="292a9fa091757208efa65e77eef63088247e51f3">
-        <dex dex="C:\Users\amalia\Documents\limudim\Android\FinalProj\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.0_e9f63fe0f3b52a4d7445c835fdf66aacd71ffb3a\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\amalia\Documents\limudim\Android\FinalProj\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="b5ff035972ba804fa5dc48f92e8d1ff5e6ff6af0">
-        <dex dex="C:\Users\amalia\Documents\limudim\Android\FinalProj\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b4c4d8913fd7c49f721708024c766e4e07cab97f\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\amalia\Documents\limudim\Android\FinalProj\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="6e239441500605809818997dd63b62a947195f8c">
-        <dex dex="C:\Users\amalia\Documents\limudim\Android\FinalProj\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.0_8c4bdc1a53af5049689bfbfa30c4bb6629e7f738\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\amalia\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
+        jar="C:\Users\Aliza\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
         jumboMode="true"
         revision="23.0.2"
         sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
-        <dex dex="C:\Users\amalia\Documents\limudim\Android\FinalProj\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.2.0_56d7362576d5994bb95b7436cb9f8b5336159fe1\classes.dex" />
+        <dex dex="C:\Users\Aliza\Documents\GitHub\FinalProj\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.2.0_46eb2e035b7e13b6edbaf1dfa3d164559992cb2c\classes.dex" />
     </item>
     <item
-        jar="C:\Users\amalia\Documents\limudim\Android\FinalProj\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        jar="C:\Users\Aliza\Documents\GitHub\FinalProj\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\jars\classes.jar"
         jumboMode="true"
         revision="23.0.2"
-        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
-        <dex dex="C:\Users\amalia\Documents\limudim\Android\FinalProj\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.volley-volley-1.0.0_089920d6479119b85ee50171b3eea417eb5dd933\classes.dex" />
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="C:\Users\Aliza\Documents\GitHub\FinalProj\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.0_520245a2ed093701aacaae7adea4064178d70e02\classes.dex" />
     </item>
     <item
-        jar="C:\Users\amalia\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jar="C:\Users\Aliza\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
         jumboMode="true"
         revision="23.0.2"
         sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="C:\Users\amalia\Documents\limudim\Android\FinalProj\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_b975475fc14b05d2cdecd80bcad410b9b707b4a2\classes.dex" />
+        <dex dex="C:\Users\Aliza\Documents\GitHub\FinalProj\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_50129b8507477c1c1609f8a1ee84d6f99d9789f7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Aliza\Documents\GitHub\FinalProj\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="C:\Users\Aliza\Documents\GitHub\FinalProj\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.0_e0c903001504de86b7fe1ac4cfb87d92bf880063\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Aliza\Documents\GitHub\FinalProj\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="C:\Users\Aliza\Documents\GitHub\FinalProj\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.volley-volley-1.0.0_ea560388e3d9173f4b17f719047485d22c9f7413\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Aliza\Documents\GitHub\FinalProj\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="C:\Users\Aliza\Documents\GitHub\FinalProj\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.0_fb7a0475bf6e6e2b534e8009afd2adf92a12c94c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Aliza\Documents\GitHub\FinalProj\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="75913962b51a6f1017d65b07b98f6f0329ab1a47">
+        <dex dex="C:\Users\Aliza\Documents\GitHub\FinalProj\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_134dd885fdbdcd6f8d264fe56afd3b0c59cde6d8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Aliza\Documents\GitHub\FinalProj\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="C:\Users\Aliza\Documents\GitHub\FinalProj\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.2.0_ff38061e9049a550bcd535325347269efa539dfb\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Aliza\Documents\GitHub\FinalProj\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="C:\Users\Aliza\Documents\GitHub\FinalProj\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.0_68139390ce6e5c85afae837e2715961b05262b69\classes.dex" />
     </item>
 
 </items>

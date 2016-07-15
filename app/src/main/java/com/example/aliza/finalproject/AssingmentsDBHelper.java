@@ -2,6 +2,7 @@ package com.example.aliza.finalproject;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
@@ -80,6 +81,34 @@ public final class AssingmentsDBHelper extends SQLiteOpenHelper {
         id = db.insert(Constant.Shows.TABLE_SCHEDULE,null,values);
         db.close();
     }
+
+
+    public  boolean isFavoriteShowExist(String showID){
+       SQLiteDatabase db = getReadableDatabase();
+        String[] selectArgs = {showID};
+        Cursor cursor=db.rawQuery("SELECT " + Constant.Shows.SHOW_ID_FAV +
+                " FROM " + Constant.Shows.TABLE_FAVORITE +
+                " WHERE " + Constant.Shows.SHOW_ID_FAV  + "=?", selectArgs);
+
+        if(cursor.moveToNext()){
+            return true;
+        }
+        return false;
+    }
+
+    public  boolean isScheduleShowExist(String showID){
+        SQLiteDatabase db = getReadableDatabase();
+        String[] selectArgs = {showID};
+        Cursor cursor=db.rawQuery("SELECT " + Constant.Shows.SHOW_ID_SCHDL +
+                " FROM " + Constant.Shows.TABLE_SCHEDULE +
+                " WHERE " + Constant.Shows.SHOW_ID_SCHDL  + "=?", selectArgs);
+
+        if(cursor.moveToNext()){
+            return true;
+        }
+        return false;
+    }
+
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL(SQL_CREATE_ENTRIES_FAV);

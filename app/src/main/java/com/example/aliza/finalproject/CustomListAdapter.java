@@ -38,11 +38,6 @@ public class CustomListAdapter extends BaseAdapter {
         this.showItems = showItems;
     }
 
-    /*public CustomListAdapter(Activity activity, List<Episode> episodesItems,boolean bl) {
-        this.activity = activity;
-        this.episodesItems = episodesItems;
-    }*/
-
     @Override
     public int getCount() {
         return showItems.size();
@@ -65,22 +60,18 @@ public class CustomListAdapter extends BaseAdapter {
             inflater = (LayoutInflater) activity
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         if (convertView == null)
-            convertView = inflater.inflate(R.layout.activity_row, null);
+            convertView = inflater.inflate(R.layout.activity_row_show, null);
 
        // getting show data for the row
        Show show = showItems.get(position);
        TextView title = (TextView) convertView.findViewById(R.id.title);
        TextView summary = (TextView) convertView.findViewById(R.id.summary);
        ImageView imageView = (ImageView)convertView.findViewById(R.id.imgVw);
-       TextView episodeDtl = (TextView) convertView.findViewById(R.id.episode);
 
        TextView year= (TextView) convertView.findViewById(R.id.tvYearVal);
        TextView genre= (TextView) convertView.findViewById(R.id.tvGenreVal);
        TextView network= (TextView) convertView.findViewById(R.id.tvNetVal);
        TextView schedule= (TextView) convertView.findViewById(R.id.tvScheduleVal);
-       //TO DO:
-       //check in favorite & schedule if exists -> sign checked if is
-
 
        // image-  Picasso does Automatic memory and disk caching:
        if (show.getImgUrl().equals("")) {
@@ -91,7 +82,6 @@ public class CustomListAdapter extends BaseAdapter {
            Picasso.with(convertView.getContext()).
                  load(show.getImgUrl()).into(imageView);
        }
-
 
         // title
        title.setText(show.getTitle());
@@ -113,10 +103,6 @@ public class CustomListAdapter extends BaseAdapter {
        String formattedText = show.getSummary();
        Spanned result = Html.fromHtml(formattedText);
        summary.setText(result);
-
-
-       //episode date+time
-       episodeDtl.setText(show.getEpisodeDetails());
 
        return convertView;
     }

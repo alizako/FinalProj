@@ -12,7 +12,7 @@ import android.widget.CompoundButton;
 import android.widget.ListView;
 import android.widget.RatingBar;
 
-public class myZone extends AppCompatActivity implements MyClickListenerFromListFragment {
+public class myZone extends AppCompatActivity  {
 
     MyClickListenerFromListFragment mListener;
     int orientation;
@@ -41,12 +41,12 @@ public class myZone extends AppCompatActivity implements MyClickListenerFromList
         frgFavorite = new FavoriteFragment();
         frgSchedule = new ScheduleFragment();
 
-        favoriteList = (ListView)findViewById(R.id.listViewFav);
+       // favoriteList = (ListView)findViewById(R.id.listViewFav);
         scheduleList = (ListView)findViewById(R.id.listViewSchdl);
 
         //listViewFavorite adapter
         db = dbHelper.getReadableDatabase();
-        Cursor cFavorite = db.query(
+       /* Cursor cFavorite = db.query(
                 Constant.Shows.TABLE_FAVORITE,
                 null,
                 null,
@@ -55,7 +55,7 @@ public class myZone extends AppCompatActivity implements MyClickListenerFromList
                 null,
                 null);
         cursorAdapterFavorite = new CursorAdapterFav(this,cFavorite);
-        favoriteList.setAdapter(cursorAdapterFavorite);
+        favoriteList.setAdapter(cursorAdapterFavorite);*/
 
         //list view listener
         //TODO: set on rating change listener
@@ -81,16 +81,16 @@ public class myZone extends AppCompatActivity implements MyClickListenerFromList
         //trans.add(android.R.id.content,frgSearch,"frgSearch");
         //trans.commit();
 
-        Global.getRtb().setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
-                                                         @Override
-                                                         public void onRatingChanged(RatingBar ratingBar, float rating, boolean fromUser) {
-                                                             if (rating==1)
-                                                                 mListener.onFavoriteClick(myZone.this,Global.getIdChosenShow(),Global.getStrChosenShow(),true);
-                                                             else
-                                                                 mListener.onFavoriteClick(myZone.this,Global.getIdChosenShow(),"",false);
+    /*    Global.getRtb().setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
+             @Override
+             public void onRatingChanged(RatingBar ratingBar, float rating, boolean fromUser) {
+                 if (rating==1)
+                     mListener.onFavoriteClick(myZone.this,Global.getIdChosenShow(),Global.getStrChosenShow(),true);
+                 else
+                     mListener.onFavoriteClick(myZone.this,Global.getIdChosenShow(),"",false);
 
-                                                         }
-                                                     }
+             }
+         }
         );
 
         Global.getSwtFav().setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
@@ -101,24 +101,15 @@ public class myZone extends AppCompatActivity implements MyClickListenerFromList
                 else
                     mListener.onScheduleClick(myZone.this,Global.getIdChosenShow(),"","",false);
             }
-        });
+        });*/
 
     }
 
 
 
 
-    @Override
-    public void onButtonClick(View view) {
 
-    }
-
-    @Override
-    public void onItemClick(View view, int position) {
-
-    }
-
-    public void onFavoriteClick(Context context,String show_id, String show_name, boolean isFavorite)
+   /* public void onFavoriteClick(Context context,String show_id, String show_name, boolean isFavorite)
     {
         //insert the show_id, show_title to the table
         if(isFavorite)
@@ -140,9 +131,9 @@ public class myZone extends AppCompatActivity implements MyClickListenerFromList
                 null);
         cursorAdapterFavorite.changeCursor(newcFavorite);
         cursorAdapterFavorite.notifyDataSetChanged();
-    }
+    }*/
 
-    public void onScheduleClick(Context context, String show_id, String show_name, String show_time, boolean isScheduled)
+    /*public void onScheduleClick(Context context, String show_id, String show_name, String show_time, boolean isScheduled)
     {
         //insert the show_id, show_title, show_time to the table
         if(isScheduled)
@@ -164,10 +155,8 @@ public class myZone extends AppCompatActivity implements MyClickListenerFromList
                 null);
         cursorAdapterSchedule.changeCursor(newcSchedule);
         cursorAdapterSchedule.notifyDataSetChanged();
-    }
+    }*/
 
-    @Override
-    public void onMyZoneClick(View view) {
 
-    }
+
 }

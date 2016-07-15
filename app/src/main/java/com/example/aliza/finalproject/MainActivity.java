@@ -16,6 +16,8 @@ import android.widget.RadioButton;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.GregorianCalendar;
+import java.util.TimeZone;
 
 public class MainActivity extends AppCompatActivity implements MyClickListenerFromListFragment {
 
@@ -24,6 +26,7 @@ public class MainActivity extends AppCompatActivity implements MyClickListenerFr
     FragmentManager fm;
     CustomListAdapterEpisodes adapterEpisodes;
     ProgressDialog dialog;
+    AlarmReciever alarm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements MyClickListenerFr
 
 
         //save the current orientation:
-        orientation= getResources().getConfiguration().orientation;
+     //   orientation= getResources().getConfiguration().orientation;
 
         fm = getSupportFragmentManager();
         mFragmentContainer=fm.findFragmentById(R.id.fragmentContainer);
@@ -42,22 +45,76 @@ public class MainActivity extends AppCompatActivity implements MyClickListenerFr
 
         //mStackFragments = new stack();
 
+       // if (orientation == getResources().getConfiguration().orientation.)
         FragmentTransaction trans = fm.beginTransaction();
-        trans.add(android.R.id.content,frgResults,"frgResults");
-        trans.hide(frgResults);
+        /*trans.add(android.R.id.content,frgResults,"frgResults");
+        trans.hide(frgResults);*/
 
         trans.add(android.R.id.content,frgSearch,"frgSearch");
         trans.commit();
 
-        mCurrentFragment = frgSearch;
+       /* mCurrentFragment = frgSearch;*/
 
     }
 
     //btnFind of fragment Search
     //btnBack of fragment Results
     @Override
-    public void onButtonClick(View view) {
-       // Toast.makeText(this,mCurrentFragment.toString(), Toast.LENGTH_LONG).show();
+    public void onButtonClickFind(View view) {
+
+//        Global.getTvTitleResults().setText("Search result for:" + Global.getStrQuery());
+
+        InputMethodManager imm = (InputMethodManager)getSystemService
+                (Context.INPUT_METHOD_SERVICE);
+        imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+
+        FragmentTransaction trans = fm.beginTransaction();
+        trans.replace(android.R.id.content, frgResults, "frgResults");
+        trans.commit();
+
+//        Global.SetVisibilityShowDetails(View.GONE);
+
+       // Global.getTvTitleResults().setText("Search result for:" + Global.getStrQuery());
+
+        //shows adapter:
+        Global.getJsonExtractor().getListViewShows().
+                setAdapter(Global.getJsonExtractor().getAdapter());
+
+
+
+    }
+
+    @Override
+    public void onButtonClickBack(View view) {
+
+        if (Global.isEpisodeList()){
+
+               // frgSearch = new ResultFragment();
+                Global.getTvTitleResults().setText("Search result for:" + Global.getStrQuery());
+
+                //shows adapter:
+                Global.getJsonExtractor().getListViewShows().
+                        setAdapter(Global.getJsonExtractor().getAdapter());
+
+                Global.setEpisodeList(false);
+
+                FragmentTransaction trans = fm.beginTransaction();
+                trans.replace(android.R.id.content, frgResults, "frgResults");
+                trans.commit();
+            }
+        else{
+            Global.getTvTitleResults().setText("Search result for:" + Global.getStrQuery());
+            Global.SetVisibilityShowDetails(View.GONE);
+            Global.setEpisodeList(false);
+
+            FragmentTransaction trans = fm.beginTransaction();
+            trans.replace(android.R.id.content, frgSearch, "frgSearch");
+            trans.commit();
+        }
+
+    }
+
+       /*// Toast.makeText(this,mCurrentFragment.toString(), Toast.LENGTH_LONG).show();
         if (mCurrentFragment==frgSearch) {//Find Button
 
             //close keyboard after clicking button:
@@ -103,7 +160,7 @@ public class MainActivity extends AppCompatActivity implements MyClickListenerFr
             }
         }
 
-    }
+    }*/
 
     @Override
     public void onItemClick(View view,int position) {
@@ -158,8 +215,10 @@ public class MainActivity extends AppCompatActivity implements MyClickListenerFr
     @Override
     public void onScheduleClick(Context context,String show_id, String show_name,String show_time, boolean isScheduled ) {
         //insert the show_id, show_title to the table
-        if(isScheduled)
-            AssingmentsDBHelper.InsertSchedule(context,show_id,show_name,show_time);
+        if(isScheduled) {
+            AssingmentsDBHelper.InsertSchedule(context, show_id, show_name, show_time);
+            setTimeForAlarm(show_name, show_time);
+        }
         else
             AssingmentsDBHelper.DeleteSchedule(context,show_id);
 
@@ -171,6 +230,34 @@ public class MainActivity extends AppCompatActivity implements MyClickListenerFr
         startActivity(intent);
     }
 
+
+
+    @Override
+    public void onDialogResponse(boolean activateDialog, String err){
+        if(activateDialog){
+            dialog= ProgressDialog.show(this,
+                    Constant.LOAD_MSG,
+                    Constant.WAIT_MSG,
+                    true);
+            //dialog.show();
+        }
+
+        else{
+            if(err.toString().length()>0)
+                Toast.makeText(MainActivity.this,
+                        err,
+                        Toast.LENGTH_LONG).show();
+
+            dialog.dismiss();
+        }
+    }
+
+    @Override
+    public void makeToast(String msg){
+        Toast.makeText(MainActivity.this,
+                msg,
+                Toast.LENGTH_LONG).show();
+    }
 
     //********************************************************************************
 
@@ -191,5 +278,23 @@ public class MainActivity extends AppCompatActivity implements MyClickListenerFr
         trans.commit();
 
         mCurrentFragment = fragment;
+    }
+
+
+
+    public void setTimeForAlarm(String showName, String showTime){
+
+        long nowUtc=System.currentTimeMillis();
+        //int offsetGtm = countriesAndFlags.getGtm()[savePosition];   //get the offset gtm of the country
+       /* String gmt = "GMT" + (offsetGtm < 0 ? "":"+") + offsetGtm;
+        mCalendar = new GregorianCalendar(TimeZone.getTimeZone(gmt));
+        mCalendar.set(Calendar.HOUR_OF_DAY, timePicker.getCurrentHour());
+        mCalendar.set(Calendar.MINUTE, timePicker.getCurrentMinute());*/
+
+     //   long milliesForTiming = mCalendar.getTimeInMillis();
+        /*if(milliesForTiming < nowUtc){
+            mCalendar.add(Calendar.DAY_OF_MONTH, 1);// add 1 day
+        }*/
+      //  alarm.setAlarm(MainActivity.this, milliesForTiming);
     }
 }

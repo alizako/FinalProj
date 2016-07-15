@@ -4,7 +4,8 @@ import android.provider.BaseColumns;
 
 public final class Constant {
 
-    public static final String URL_SHOWS_GENERAL= "http://api.tvmaze.com/shows/";
+    public static final String URL_2DAY_SHOWS="http://api.tvmaze.com/schedule?country=US&date="; //format: 2014-12-01
+    public static final String URL_ALL_SHOWS= "http://api.tvmaze.com/shows/";
     public static final String URL_SHOWS = "http://api.tvmaze.com/search/shows?q=";
     public static final String URL_EPISODES = "http://api.tvmaze.com/shows/#/episodes";
     public static final String LOAD_MSG = "Loading";

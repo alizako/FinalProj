@@ -2,9 +2,11 @@ package com.example.aliza.finalproject;
 
 import android.content.Context;
 import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CompoundButton;
 import android.widget.CursorAdapter;
 import android.widget.RatingBar;
 import android.widget.Switch;
@@ -16,6 +18,9 @@ import android.widget.TextView;
 public class CursorAdapterSchdl extends CursorAdapter {
 
     LayoutInflater inflater;
+    AssingmentsDBHelper dbHelper;
+    SQLiteDatabase db;
+    String idShow;
 
     public CursorAdapterSchdl(Context context, Cursor c){
         super(context,c,true);
@@ -28,7 +33,7 @@ public class CursorAdapterSchdl extends CursorAdapter {
     }
 
     @Override
-    public void bindView(View view, Context context, Cursor cursor) {
+    public void bindView(View view, final Context context, Cursor cursor) {
 
         Switch schdlIcon = (Switch)view.findViewById(R.id.switchSchdl);
         TextView schdlName = (TextView) view.findViewById(R.id.seriesNameSchdl);
@@ -37,5 +42,46 @@ public class CursorAdapterSchdl extends CursorAdapter {
         schdlIcon.setChecked(true);
         schdlName.setText(cursor.getString(cursor.getColumnIndex(Constant.Shows.SHOW_NAME_SCHDL)));
         schdlTime.setText(cursor.getString(cursor.getColumnIndex(Constant.Shows.SHOW_TIME_SCHDL)));
+
+        idShow=cursor.getString(cursor.getColumnIndex(Constant.Shows.SHOW_ID_FAV));
+        schdlIcon.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if(!isChecked)
+                    onScheduleClick(context,
+                            getIdShow(),"","",false);
+            }
+        });
+    }
+
+
+    public void onScheduleClick(Context context, String show_id, String show_name, String show_time, boolean isScheduled)
+    {
+        AssingmentsDBHelper dbHelper = new AssingmentsDBHelper(context);
+
+        //insert the show_id, show_title, show_time to the table
+        if(isScheduled)
+            AssingmentsDBHelper.InsertSchedule(context,show_id,show_name,show_time);
+
+            //remove the show_id from the table
+        else
+            AssingmentsDBHelper.DeleteSchedule(context,show_id);
+
+        //update cursor
+        db = dbHelper.getReadableDatabase();
+        Cursor newcSchedule = db.query(
+                Constant.Shows.TABLE_SCHEDULE,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null);
+        changeCursor(newcSchedule);
+        notifyDataSetChanged();
+    }
+
+    public String getIdShow() {
+        return idShow;
     }
 }

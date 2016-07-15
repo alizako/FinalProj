@@ -85,7 +85,7 @@ public class SearchFragment extends Fragment {
                             Toast.LENGTH_LONG).show();
                 }
 
-                mListener.onButtonClick(v);
+                mListener.onButtonClickFind(v);
             }
         });
 

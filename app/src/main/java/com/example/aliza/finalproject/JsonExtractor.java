@@ -21,6 +21,7 @@ import java.util.List;
  */
 public class JsonExtractor {
 
+    private List<Show> allShows;
     private List<Show> shows;
     private List<Episode> episodes;
     private CustomListAdapter adapter;
@@ -28,8 +29,14 @@ public class JsonExtractor {
     private ListView listViewShows;
     private ListView listViewEpisodes;
 
+    private MyClickListenerFromListFragment mListener;
+    private Listener2DayActivity listener2DayActivity;
     private boolean responseReq;
+    private boolean isNextPage = true;
 
+    public JsonExtractor() {
+
+    }
     public JsonExtractor(ListView listView) {
 
         this.listViewEpisodes = listView;
@@ -88,16 +95,102 @@ public class JsonExtractor {
         this.listViewEpisodes.setAdapter(adapterEpisode);
     }
 
+
+    // All Shows *****************************************************************************
+
+ /*   public List<Show> getAllShows(final Context context){
+
+     //   final ArrayList<Show> allShows=new ArrayList<Show>();
+        int pageIndex=0;
+
+        String tmpUrl;//=Constant.URL_ALL_SHOWS+pageIndex;
+        JsonArrayRequest showReq;
+
+        while (pageIndex >= 0 && isNextPage) {
+            tmpUrl=Constant.URL_ALL_SHOWS+pageIndex;
+            //test:
+            tmpUrl=Constant.URL_SHOWS+"blacklist";
+            pageIndex++;
+
+            showReq = new JsonArrayRequest
+                    (tmpUrl, new Response.Listener<JSONArray>() {
+                        @Override
+                        public void onResponse(JSONArray response) {
+
+                            if (response.length() == 0 || response == null) {
+                                isNextPage = false;
+                            }
+                            // Parsing json
+                            for (int i = 0; i < response.length(); i++) {
+                                try {
+
+                                    JSONObject obj = response.getJSONObject(i).
+                                            getJSONObject(Constant.SHOW_COL);
+
+                                    Show show = new Show();
+                                    show.setIdShow(obj.getString(Constant.ID_COL));
+                                    show.setTitle(obj.getString(Constant.NAME_COL));
+                                    show.setSummary(obj.getString(Constant.SUMMARY_COL));
+                                    //when image is NULL, the value is in STRING format
+                                    // otherwise, it's an object:
+                                    if (obj.getString(Constant.IMG_COL).equals(Constant.NULL))
+                                        show.setImgUrl("");
+                                    else
+                                        show.setImgUrl(obj.getJSONObject(Constant.IMG_COL).
+                                                getString(Constant.ORIGINAL_COL));
+
+                                    //main info:
+                                    show.setYearPremiered(obj.getString(Constant.YEAR_COL));
+                                    show.setNetwork(
+                                            obj.getJSONObject("network").getString("name")
+                                    );
+                                    show.setScheduleTime(obj.getJSONObject("schedule").getString("time"));
+                                    //schedule days:
+                                    ArrayList<String> tmpdays = new ArrayList<String>();
+                                    for (int j = 0; j < obj.getJSONObject("schedule").getJSONArray("days").length(); j++)
+                                        tmpdays.add(obj.getJSONObject("schedule").getJSONArray("days").getString(j));
+                                    show.setScheduleDays(tmpdays);
+                                    //genres:
+                                    ArrayList<String> tmpGnr = new ArrayList<String>();
+                                    for (int j = 0; j < obj.getJSONArray("genres").length(); j++)
+                                        tmpGnr.add(obj.getJSONArray("genres").getString(j));
+                                    show.setGenres(tmpGnr);
+
+                                    allShows.add(show);
+
+                                } catch (JSONException e) {
+                                    e.printStackTrace();
+                                }
+                            }
+                            adapter.notifyDataSetChanged();
+                        }
+                    }, new Response.ErrorListener() {
+                        @Override
+                        public void onErrorResponse(VolleyError error) {
+                            //  VolleyLog.d(TAG, "Error: " + error.getMessage());
+                            responseReq = false;//dialog.dismiss();
+
+                        }
+                    });
+            if (showReq==null)isNextPage = false;
+            // Adding request to request queue
+            Volley.newRequestQueue(context).add(showReq);
+        }//end of While
+
+        return allShows;
+    }*/
+
     // Shows ********************************************************************************
     public Boolean getJsonShows(final String tmpUrl, final Context context) {
 
         responseReq = true;
 
-
         //test:
-        //tmpUrl= Constant.URL_SHOWS_GENERAL+69;
+        // String tmp = Constant.URL_ALL_SHOWS+0;
 
-        JsonArrayRequest showReq = new JsonArrayRequest(tmpUrl, new Response.Listener<JSONArray>() {
+        //JsonArrayRequest showReq = new JsonArrayRequest(tmpUrl,
+        JsonArrayRequest showReq = new JsonArrayRequest(Constant.URL_2DAY_SHOWS,
+                new Response.Listener<JSONArray>() {
             @Override
             public void onResponse(JSONArray response) {
                         /*Toast.makeText(MainActivity.this,
@@ -108,7 +201,9 @@ public class JsonExtractor {
                     /*Toast.makeText(MainActivity.this,
                             Constant.NOT_FOUND_MSG,
                             Toast.LENGTH_LONG).show();*/
-                    responseReq = false;
+                    mListener.makeToast(Constant.NOT_FOUND_EP_MSG);
+                    // responseReq = false;
+
                 }
                 // Parsing json
                 for (int i = 0; i < response.length(); i++) {
@@ -147,8 +242,8 @@ public class JsonExtractor {
 
                         //need more general details:
                         //show = getJsonShowGeneralDetails(
-                       // show = tmp(tmpUrl,show,context);
-                            //    Constant.URL_SHOWS_GENERAL + show.getIdShow(),show,context);
+                        // show = tmp(tmpUrl,show,context);
+                        //    Constant.URL_SHOWS_GENERAL + show.getIdShow(),show,context);
 
                         // adding movie to movies array
                         shows.add(show);
@@ -172,7 +267,8 @@ public class JsonExtractor {
             @Override
             public void onErrorResponse(VolleyError error) {
                 //  VolleyLog.d(TAG, "Error: " + error.getMessage());
-                responseReq = false;//dialog.dismiss();
+                mListener.onDialogResponse(false,"");
+                //responseReq = false;//dialog.dismiss();
 
             }
         });
@@ -201,7 +297,8 @@ public class JsonExtractor {
                             /*Toast.makeText(MainActivity.this,
                                     Constant.NOT_FOUND_EP_MSG,
                                     Toast.LENGTH_LONG).show();*/
-                            responseReq = false;
+                            //responseReq = false;
+                            mListener.makeToast(Constant.NOT_FOUND_EP_MSG);
                         }
                         // Parsing json
                         for (int i = 0; i < response.length(); i++) {
@@ -234,13 +331,15 @@ public class JsonExtractor {
                                         show.toString(),
                                         Toast.LENGTH_LONG).show();*/
 
-                                responseReq = false;//dialog.dismiss();
+                                //responseReq = false;//dialog.dismiss();
+                                //mListener.onDialogResponse(false,"");
 
                             } catch (JSONException e) {
                                 e.printStackTrace();
                             }
                         }
-                        responseReq = false;//dialog.dismiss();
+                        // mListener.onDialogResponse(false,"");
+                        // responseReq = false;//dialog.dismiss();
                         // notifying list adapter about data changes
                         // so that it renders the list view with updated data
                         adapterEpisode.notifyDataSetChanged();
@@ -249,7 +348,8 @@ public class JsonExtractor {
             @Override
             public void onErrorResponse(VolleyError error) {
                 //  VolleyLog.d(TAG, "Error: " + error.getMessage());
-                responseReq = false;//dialog.dismiss();
+                //responseReq = false;//dialog.dismiss();
+                mListener.onDialogResponse(false,error.getMessage());
 
             }
         });
@@ -258,6 +358,166 @@ public class JsonExtractor {
     }
 
 
+//---------------------
+
+    /**
+     * Method to make json array request where response starts with [
+     * */
+    public void makeJsonArrayRequest(Context context) {
+
+        int pageIndex=0;
+        String tmpUrl;
+
+        while (pageIndex >= 0 && isNextPage){
+            //    tmpUrl=Constant.URL_ALL_SHOWS+pageIndex;
+            pageIndex++;
+            JsonArrayRequest req = new JsonArrayRequest(Constant.URL_ALL_SHOWS+pageIndex,
+                    new Response.Listener<JSONArray>() {
+                        @Override
+                        public void onResponse(JSONArray response) {
+
+                            if (response.length() == 0 || response == null) {
+                                isNextPage = false;
+                            }
+                            // Parsing json
+                            for (int i = 0; i < response.length(); i++) {
+                                try {
+                                    JSONObject obj = response.getJSONObject(i).
+                                            getJSONObject(Constant.SHOW_COL);
+
+                                    Show show = new Show();
+                                    show.setIdShow(obj.getString(Constant.ID_COL));
+                                    show.setTitle(obj.getString(Constant.NAME_COL));
+                                    show.setSummary(obj.getString(Constant.SUMMARY_COL));
+                                    //when image is NULL, the value is in STRING format
+                                    // otherwise, it's an object:
+                                    if (obj.getString(Constant.IMG_COL).equals(Constant.NULL))
+                                        show.setImgUrl("");
+                                    else
+                                        show.setImgUrl(obj.getJSONObject(Constant.IMG_COL).
+                                                getString(Constant.ORIGINAL_COL));
+
+                                    //main info:
+                                    show.setYearPremiered(obj.getString(Constant.YEAR_COL));
+                                    show.setNetwork(
+                                            obj.getJSONObject("network").getString("name")
+                                    );
+                                    show.setScheduleTime(obj.getJSONObject("schedule").getString("time"));
+                                    //schedule days:
+                                    ArrayList<String> tmpdays = new ArrayList<String>();
+                                    for (int j = 0; j < obj.getJSONObject("schedule").getJSONArray("days").length(); j++)
+                                        tmpdays.add(obj.getJSONObject("schedule").getJSONArray("days").getString(j));
+                                    show.setScheduleDays(tmpdays);
+                                    //genres:
+                                    ArrayList<String> tmpGnr = new ArrayList<String>();
+                                    for (int j = 0; j < obj.getJSONArray("genres").length(); j++)
+                                        tmpGnr.add(obj.getJSONArray("genres").getString(j));
+                                    show.setGenres(tmpGnr);
+
+                                    allShows.add(show);
+
+
+                                } catch (JSONException e) {
+                                    e.printStackTrace();
+                                }
+                            }
+                        }/////
+
+                    }, new Response.ErrorListener() {
+                @Override
+                public void onErrorResponse(VolleyError error) {
+                    mListener.onDialogResponse(false,Constant.ERR_MSG+error.toString());
+                }/////
+            });
+
+            // Adding request to request queue
+            Volley.newRequestQueue(context).add(req);
+
+        }//end of while
+        mListener.onDialogResponse(false,"");
+    }
+    //--------------------------------
+
+
+    public void getJson2DayShows(Context context) {
+
+      // final Listener2DayActivity mListener2Day;
+      //  showpDialog();
+
+        listener2DayActivity.onDialogResponse(true,"");
+
+        JsonArrayRequest req = new JsonArrayRequest(Constant.URL_2DAY_SHOWS,
+                new Response.Listener<JSONArray>() {
+                    @Override
+                    public void onResponse(JSONArray response) {
+                        //Log.d(TAG, response.toString());
+                        if (response.length() == 0 || response == null) {
+                    /*Toast.makeText(MainActivity.this,
+                            Constant.NOT_FOUND_MSG,
+                            Toast.LENGTH_LONG).show();*/
+                            listener2DayActivity.makeToast(Constant.NOT_FOUND_EP_MSG);
+                            // responseReq = false;
+
+                        }
+                        // Parsing json
+                        for (int i = 0; i < response.length(); i++) {
+                            try {
+
+                                JSONObject obj = response.getJSONObject(i).
+                                        getJSONObject(Constant.SHOW_COL);
+
+                                Show show = new Show();
+                                show.setIdShow(obj.getString(Constant.ID_COL));
+                                show.setTitle(obj.getString(Constant.NAME_COL));
+                                show.setSummary(obj.getString(Constant.SUMMARY_COL));
+                                //when image is NULL, the value is in STRING format
+                                // otherwise, it's an object:
+                                if (obj.getString(Constant.IMG_COL).equals(Constant.NULL))
+                                    show.setImgUrl("");
+                                else
+                                    show.setImgUrl(obj.getJSONObject(Constant.IMG_COL).
+                                            getString(Constant.ORIGINAL_COL));
+
+                                //main info:
+                                show.setYearPremiered(obj.getString(Constant.YEAR_COL));
+                                show.setNetwork(
+                                        obj.getJSONObject("network").getString("name")
+                                );                        show.setScheduleTime(obj.getJSONObject("schedule").getString("time"));
+                                //schedule days:
+                                ArrayList<String> tmpdays= new ArrayList<String>();
+                                for (int j = 0; j < obj.getJSONObject("schedule").getJSONArray("days").length(); j++)
+                                    tmpdays.add(obj.getJSONObject("schedule").getJSONArray("days").getString(j));
+                                show.setScheduleDays(tmpdays);
+                                //genres:
+                                ArrayList<String> tmpGnr= new ArrayList<String>();
+                                for (int j = 0; j < obj.getJSONArray("genres").length(); j++)
+                                    tmpGnr.add(obj.getJSONArray("genres").getString(j));
+                                show.setGenres(tmpGnr);
+
+                                shows.add(show);
+
+                            } catch (JSONException e) {
+                                e.printStackTrace();
+                            }
+                        }
+                      //  responseReq = false;//dialog.dismiss();
+                        // notifying list adapter about data changes
+                        // so that it renders the list view with updated data
+                        adapter.notifyDataSetChanged();
+                        listener2DayActivity.onDialogResponse(false,"");
+                        //dialog.dismiss();
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                listener2DayActivity.onDialogResponse(false,"");
+            }
+        });
+
+        // Adding request to request queue
+        Volley.newRequestQueue(context).add(req);
+        listener2DayActivity.onDialogResponse(false,"");
+    }
 
 
 }
