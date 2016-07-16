@@ -16,7 +16,6 @@ import android.widget.Toast;
 
 public class FavoriteFragment extends Fragment {
 
-    MyClickListenerFromListFragment mListener;
     ListView favoriteList;
 
     AssingmentsDBHelper dbHelper;// = new AssingmentsDBHelper(this);
@@ -35,7 +34,7 @@ public class FavoriteFragment extends Fragment {
 
         AssingmentsDBHelper dbHelper= new AssingmentsDBHelper(getContext());
 
-        //listViewFavorite adapter
+        //listViewFavorite adapter - populate the favorite list
         db = dbHelper.getReadableDatabase();
         Cursor cFavorite = db.query(
                 Constant.Shows.TABLE_FAVORITE,
@@ -47,12 +46,6 @@ public class FavoriteFragment extends Fragment {
                 null);
         cursorAdapterFavorite = new CursorAdapterFav(view.getContext(),cFavorite);
         favoriteList.setAdapter(cursorAdapterFavorite);
-
-
-
-        //favoriteList = (ListView)  view.findViewById(R.id.listViewFav);
-
-
         return view;
     }
 
@@ -61,11 +54,6 @@ public class FavoriteFragment extends Fragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        try{
-            mListener = (MyClickListenerFromListFragment) context;
-        }
-        catch(ClassCastException e){
-            Toast.makeText(context,"error FAV", Toast.LENGTH_LONG).show();
-        }
     }
+
 }

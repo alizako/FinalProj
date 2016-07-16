@@ -16,7 +16,7 @@ import android.widget.TextView;
 public class CursorAdapterFav extends CursorAdapter {
 
     LayoutInflater inflater;
-    String idShow;
+    int idShow;
 
     AssingmentsDBHelper dbHelper;
     SQLiteDatabase db;
@@ -41,16 +41,17 @@ public class CursorAdapterFav extends CursorAdapter {
 
         favIcon.setRating(1);
         favName.setText(cursor.getString(cursor.getColumnIndex(Constant.Shows.SHOW_NAME_FAV)));
+        idShow=Integer.parseInt(cursor.getString(cursor.getColumnIndex(Constant.Shows.SHOW_ID_FAV)));
+        favIcon.setId(idShow);
 
-        idShow=cursor.getString(cursor.getColumnIndex(Constant.Shows.SHOW_ID_FAV));
       //  idHidden.setText(idShow);
 
         favIcon.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
+
              @Override
              public void onRatingChanged(RatingBar ratingBar, float rating, boolean fromUser) {
                  if (rating==0)
-                     onFavoriteClick(context,
-                             getIdShow(),"",false);
+                     onFavoriteClick(context,ratingBar.getId()+"","",false);
 
              }
          }
@@ -69,7 +70,7 @@ public class CursorAdapterFav extends CursorAdapter {
             AssingmentsDBHelper.DeleteFavorite(context,show_id);
 
         //update cursor
-        dbHelper = new AssingmentsDBHelper(context);
+        AssingmentsDBHelper dbHelper = new AssingmentsDBHelper(context);
         db = dbHelper.getReadableDatabase();
         Cursor newcFavorite = db.query(
                 Constant.Shows.TABLE_FAVORITE,
@@ -81,9 +82,5 @@ public class CursorAdapterFav extends CursorAdapter {
                 null);
         changeCursor(newcFavorite);
         notifyDataSetChanged();
-    }
-
-    public String getIdShow() {
-        return idShow;
     }
 }
