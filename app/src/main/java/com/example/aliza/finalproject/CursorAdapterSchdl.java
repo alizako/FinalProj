@@ -20,7 +20,7 @@ public class CursorAdapterSchdl extends CursorAdapter {
     LayoutInflater inflater;
     AssingmentsDBHelper dbHelper;
     SQLiteDatabase db;
-    String idShow;
+    int idShow;
 
     public CursorAdapterSchdl(Context context, Cursor c){
         super(context,c,true);
@@ -43,13 +43,13 @@ public class CursorAdapterSchdl extends CursorAdapter {
         schdlName.setText(cursor.getString(cursor.getColumnIndex(Constant.Shows.SHOW_NAME_SCHDL)));
         schdlTime.setText(cursor.getString(cursor.getColumnIndex(Constant.Shows.SHOW_TIME_SCHDL)));
 
-        idShow=cursor.getString(cursor.getColumnIndex(Constant.Shows.SHOW_ID_FAV));
+        idShow=Integer.parseInt(cursor.getString(cursor.getColumnIndex(Constant.Shows.SHOW_ID_SCHDL)));
+        schdlIcon.setId(idShow);
         schdlIcon.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if(!isChecked)
-                    onScheduleClick(context,
-                            getIdShow(),"","",false);
+                    onScheduleClick(context,buttonView.getId()+"","","",false);
             }
         });
     }
@@ -79,9 +79,5 @@ public class CursorAdapterSchdl extends CursorAdapter {
                 null);
         changeCursor(newcSchedule);
         notifyDataSetChanged();
-    }
-
-    public String getIdShow() {
-        return idShow;
     }
 }

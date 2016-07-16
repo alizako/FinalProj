@@ -44,7 +44,7 @@ public final class AssingmentsDBHelper extends SQLiteOpenHelper {
         AssingmentsDBHelper dbHelper = new AssingmentsDBHelper(context);
         SQLiteDatabase db = dbHelper.getWritableDatabase();
         db.delete(Constant.Shows.TABLE_FAVORITE,Constant.Shows.SHOW_ID_FAV+"=?",new String[]{show_id});
-        db.execSQL(SQL_DELETE_FAV + show_id + ";");
+        db.close();
     }
 
     public static final void DeleteSchedule(Context context, String show_id)
@@ -52,7 +52,7 @@ public final class AssingmentsDBHelper extends SQLiteOpenHelper {
         AssingmentsDBHelper dbHelper = new AssingmentsDBHelper(context);
         SQLiteDatabase db = dbHelper.getWritableDatabase();
         db.delete(Constant.Shows.TABLE_SCHEDULE,Constant.Shows.SHOW_ID_SCHDL+"=?",new String[]{show_id});
-        db.execSQL(SQL_DELETE_SCHDL + show_id + ";");
+        db.close();
     }
 
     public static final void InsertFavorite(Context context, String show_id, String show_name)
@@ -70,7 +70,7 @@ public final class AssingmentsDBHelper extends SQLiteOpenHelper {
 
     public static final void InsertSchedule(Context context, String show_id, String show_name, String show_time)
     {
-        //save the episode id in the DB
+        //save the show id in the DB
         long id;
         AssingmentsDBHelper dbHelper = new AssingmentsDBHelper(context);
         SQLiteDatabase db = dbHelper.getWritableDatabase();
