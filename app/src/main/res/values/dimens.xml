@@ -3,6 +3,6 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="title">17dp</dimen>
-
+    <dimen name="myZone">15dp</dimen>
     <dimen name="summary">13dip</dimen>
 </resources>

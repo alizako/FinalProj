@@ -6,6 +6,8 @@
     <string name="titleRes">Search </string>
     <string name="titleFav">Favorite Shows:</string>
     <string name="titleSchdl">Scheduled Shows:</string>
+    <string name="todaySchedule">Schedule of Today</string>
+    <string name="switchSchedule">Schedule</string>
     <string name="myZone"> <u>My Zone </u> </string>
     <string name="hello">HELLO</string>
     <string-array name="networks_array">

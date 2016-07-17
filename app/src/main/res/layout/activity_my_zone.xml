@@ -16,11 +16,12 @@
         android:layout_gravity="left"
         android:foregroundGravity="left"
         android:background="@color/logoBackground"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="10dp"
+        android:padding="10px"/>
     <fragment
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="com.example.aliza.finalproject.FavoriteFragment"
+        android:name="com.example.aliza.finalproject.Fragments.FavoriteFragment"
         android:id="@+id/Favorite"
         android:layout_weight="1"
         tools:layout="@layout/fragment_favorite"
@@ -30,7 +31,7 @@
     <fragment
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="com.example.aliza.finalproject.ScheduleFragment"
+        android:name="com.example.aliza.finalproject.Fragments.ScheduleFragment"
         android:id="@+id/Schedule"
         android:layout_weight="1"
         tools:layout="@layout/fragment_schedule"

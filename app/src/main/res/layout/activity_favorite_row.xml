@@ -14,7 +14,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/favoriteIcon"
         android:numStars="1"
-        android:stepSize="1"/>
+        android:stepSize="1"
+
+        android:rating="1"/>
 
 
 

@@ -19,7 +19,8 @@
         android:layout_gravity="left"
         android:foregroundGravity="left"
         android:background="@color/logoBackground"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="10dp"
+        android:padding="10px"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -27,7 +28,9 @@
         android:text="@string/myZone"
         android:id="@+id/tvMyZone"
         android:gravity="right"
-        android:textColor="@color/summary"/>
+        android:textColor="@color/link"
+        android:textSize="@dimen/myZone"
+        android:textStyle="bold"/>
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="match_parent"

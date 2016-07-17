@@ -8,36 +8,30 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label=""
+        android:label="Shows DB"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".Main2DayScheduleActivity">
+        <activity android:name=".Activities.Main2DayScheduleActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SearchFragment" />
-        <activity android:name=".ResultFragment" />
-        <activity android:name=".myZone" />
-        <activity android:name=".favorite_row" />
-        <activity android:name=".schedule_row" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".SearchResultsActivity" />
-        <activity android:name=".SelectedShowActivity" />
+        <activity android:name=".Activities.myZone" />
+        <activity android:name=".Activities.SearchResultsActivity" />
+        <activity android:name=".Activities.SelectedShowActivity" />
 
         <service
-            android:name=".MyIntentService"
+            android:name=".Services.MyIntentService"
             android:enabled="true"
             android:exported="true" />
 
         <receiver
-            android:name=".AlarmReciever"
+            android:name=".Services.AlarmReciever"
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".RowShowActivity"></activity>
     </application>
 
 

@@ -1,18 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/appBackground">
 
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:id="@+id/imgLogo"
+        android:src="@drawable/databaseicon3"
+        android:layout_gravity="left"
+        android:foregroundGravity="left"
+        android:background="@color/logoBackground"
+        android:layout_marginBottom="3dp"
+        android:padding="10px"/>
 
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        >
 
     <fragment
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="com.example.aliza.finalproject.FavoriteFragment"
+        android:name="com.example.aliza.finalproject.Fragments.FavoriteFragment"
         android:id="@+id/Favorite"
         android:layout_weight="1"
         tools:layout="@layout/fragment_favorite" />
@@ -20,10 +36,12 @@
     <fragment
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="com.example.aliza.finalproject.ScheduleFragment"
+        android:name="com.example.aliza.finalproject.Fragments.ScheduleFragment"
         android:id="@+id/Schedule"
         android:layout_weight="1"
         tools:layout="@layout/fragment_schedule"/>
+</LinearLayout>
+
 
 </LinearLayout>
 
